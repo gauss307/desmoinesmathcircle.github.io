@@ -337,6 +337,10 @@ img {
   align-self: end;
 }
 
+.body5-button-link {
+    align-self:end;
+}
+
 .body5-button:after {
   background-color: #1F2937;
   border-radius: 8px;
