@@ -10,13 +10,17 @@ body {
     font-family: Libertinus;
 }
 
+/*HEADER*/
+
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #1F2937;
     align-items: center;
-    padding: 0 192px;
+    /* padding: 0 192px; */
+    padding-left: 10%;
+    padding-right: 10%;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 0;
     padding-top: 8px;
@@ -28,7 +32,7 @@ body {
     flex-direction: row;
     align-items:center;
     justify-content: space-between;
-    gap: 24px;
+    /*gap: 24px;*/
     margin: 0;
     padding: 0;
     font-size: 18px;
@@ -46,6 +50,8 @@ a {
     font-family: Libertinus; 
     flex-shrink: 1;
 }
+
+/*BODY1-LOGO AND PHRASE*/
 
 .body1 {
     background-color:#1F2937;
@@ -66,7 +72,11 @@ a {
 .body-around-all {
     display: flex;
     /*flex-direction: row; */
-    padding: 60px 192px; 
+    /* padding: 60px 192px;  */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -83,6 +93,8 @@ a {
     height: 300px;
 }
 
+/*MISSON STATEMENT*/
+
 .body2 {
     background-color: #eef0eb;
 }
@@ -98,12 +110,16 @@ a {
 
 .body2-main-text {
     padding: 0 192px;
+    padding-left: 10%;
+    padding-right: 10%;
     text-align: center;
     font-size: 30px;
     color: #1F2937;
     padding-bottom: 32px;
     font-style: italic;
 }
+
+/* DISPLAY RESOURCES */
 
 .body3 {
     background-color: #E5E7EB;
@@ -127,12 +143,14 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 12px;
+    flex-wrap: wrap;
 
 }
 
 .body3-box1, .body3-box2, .body3-box3 {
     width: 260px;
     text-align: center;
+    flex-shrink: 1;
 }
 
 .box-header {
@@ -141,12 +159,15 @@ a {
 
 .box1-image, .box2-image, .box3-image {
     height: 100px;
+    flex-shrink: 1;
 }
 
 img {
     padding: 0;
     margin: 0;
 }
+
+/*MEET OUR TEAM*/
 
 .body4 {
     display: flex;
@@ -156,8 +177,18 @@ img {
     justify-content: space-between;
     padding: 32px;
 }
+
+.body4-members {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
 .body4-photos {
     height: 200px;
+    width: 200px;
     padding-bottom: 16px;
 }
 
@@ -200,17 +231,27 @@ img {
     align-items: center;
 }
 
+/*PROMYS INTERVIEW*/
+
 .body5 {
     display: flex;
     flex-direction: column;
-    padding: 0 192px;
+    /* padding: 0 192px; */
+    padding-left: 10%;
+    padding-right: 10%;
+
 }
 
 .promys-image {
     max-width: 400px;
     max-height: 300px;
     flex-shrink: 1;
-    border-radius: 25px;
+    box-shadow: 10px 10px #1F2937;
+    border-radius: 8px;
+    border-color: #1F2937;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
 }
 
 .body5-header {
@@ -228,17 +269,24 @@ img {
     justify-content: space-between;
     padding-bottom: 32px;
     gap: 64px;
+    flex-wrap: wrap;
 }
 
 .body5-blurb {
     color: #1F2937;
     font-size: 20px;
+    background-color: #c6cebd;
+    box-shadow: 10px 10px #1F2937;
+    padding: 10px;
+    border-radius: 8px;
+    font-style: italic;
+    max-width: 550px;
 }
 
 .body5-text {
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    gap: 32px;
 }
 
 /*.body5-button {
@@ -247,19 +295,19 @@ img {
     color: #1F2937;
     align-self: end;
     padding: 4px;
-    border-radius: 10px;
+    border-radius: 10px; 
 } */
 
 
 
-/* CSS */
-.button-56 {
+/*PROMYS INTERVIEW BUTTON*/
+.body5-button {
   align-items: center;
   background-color: #fee6e3;
-  border: 2px solid #111;
+  border: 2px solid #1F2937;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #111;
+  color: #1F2937;
   cursor: pointer;
   display: flex;
   font-family: Inter,sans-serif;
@@ -275,10 +323,13 @@ img {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  max-width: 250px;
+  font-weight: 900;
+  align-self: end;
 }
 
-.button-56:after {
-  background-color: #111;
+.body5-button:after {
+  background-color: #1F2937;
   border-radius: 8px;
   content: "";
   display: block;
@@ -292,21 +343,81 @@ img {
   z-index: -1;
 }
 
-.button-56:hover:after {
+.body5-button:hover:after {
   transform: translate(0, 0);
 }
 
-.button-56:active {
+.body5-button:active {
   background-color: #ffdeda;
   outline: 0;
 }
 
-.button-56:hover {
+.body5-bbuton:hover {
   outline: 0;
 }
 
 @media (min-width: 768px) {
-  .button-56 {
+  .body5-button {
     padding: 0 40px;
   }
+}
+
+/*HEADER BUTTON */
+.header-button {
+  appearance: none;
+  background-color: #1F2937;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #fee6e3;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 1em 1.5em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.header-button:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #1c3546;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.header-button:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.header-button:after {
+  background-color: #1F2937;
+}
+
+.header-button span {
+  z-index: 1;
+  position: relative;
 }
