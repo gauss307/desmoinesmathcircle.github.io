@@ -449,6 +449,7 @@ img {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 64px;
+    border-radius: 4px;
 }
 
 
@@ -480,7 +481,21 @@ img {
 .pI-intro {
     background-color: white;
     border-radius: 4px;
-    box-shadow: 10px 10px #B3EBF2;
+    box-shadow: 10px 10px #779ecb;
     padding: 8px;
     font-size: 16px;
+}
+
+.tabs-bar {
+    border-radius: 4px;
+}
+
+.author {
+    padding-bottom: 8px;
+    font-weight: 900;
+}
+
+.date {
+    padding-bottom: 8px;
+    font-weight: 900;
 }
