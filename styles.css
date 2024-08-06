@@ -152,7 +152,7 @@ a {
     padding: 60px;
     padding-left: 10%;
     padding-right: 10%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 12px;
     flex-wrap: wrap;
@@ -196,7 +196,7 @@ img {
 .body4-members {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 16px;
     flex-wrap: wrap;
 }
@@ -516,6 +516,8 @@ img {
     color: #fee6e3;
     align-items: center;
     justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /*BLOGS*/
