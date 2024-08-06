@@ -284,13 +284,13 @@ img {
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 32px;
-    gap: 64px;
+    gap: 16px;
     flex-wrap: wrap;
 }
 
 .body5-blurb {
     color: #1F2937;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #c6cebd;
     box-shadow: 10px 10px #1F2937;
     padding: 10px;
@@ -302,7 +302,7 @@ img {
 .body5-text {
     display: flex;
     flex-direction: column;
-    gap: 28px;
+    gap: 32px;
 }
 
 /*.body5-button {
