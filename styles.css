@@ -282,7 +282,7 @@ img {
 .body5-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 32px;
     gap: 64px;
     flex-wrap: wrap;
@@ -302,7 +302,7 @@ img {
 .body5-text {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 28px;
 }
 
 /*.body5-button {
