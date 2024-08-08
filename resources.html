@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resources</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="w3-tabs.css">
     <script src="dmmc.js" defer></script>
 </head>
 <body>
@@ -17,25 +18,176 @@
         </ul>
     </div>
 
-    <div class="resources-outer">
+    
+    <div class="pI-body2">
         <div class="resources-header">Resources</div>
-        <div class="resources-body">
-            <div class="resource-box">
+        <div class="pI-content">
+            <!--TABS-->
+            <div class="tabs">
+            <div class="w3-bar w3-black tabs-bar" >
+                <button class="w3-bar-item w3-button tablink w3-red"
+                onclick="inter(event,'General')">General</button>
+    
+                <button class="w3-bar-item w3-button tablink"
+                onclick="inter(event, 'Number-Theory')">Number Theory</button>
+    
+                <button class="w3-bar-item w3-button tablink"
+                onclick="inter(event, 'Combinatorics')">Combinatorics</button>
+    
+                <button class="w3-bar-item w3-button tablink"
+                onclick="inter(event, 'Algebra')">Algebra</button>
+    
+                <button class="w3-bar-item w3-button tablink"
+                onclick="inter(event, 'Geometry')">Geometry</button>
+            
+            </div>
+            </div>
+            <div class="pI-text">
+            <!--CONTENT-->
+    
+    
+            <div id="General" class="inter">
+                <h2>General</h2>
                 <!--STANDARD FOR Resource POST-->
+                <div class="resource-container">
+                <div class="resource-box">
+        
+                    <div ><a class="resource-title" >Alpha Sample Tests</a></div>
+                    <div class="author">Author: Maximillian Roach</div>
+                    <div class="date">August 7, 2024</div>
+                    <div class="resource-text">
+                        Here are some sample tests for the Alpha division of the DMMC contest series. 
+                        The Alpha division is typically for students in elementary school. 
 
-                <div ><a class="resource-title" href="#">Sorry We Don't Have Any Resources Yet</a></div>
-                <div class="author">Author: Maximillian Roach</div>
-                <div class="date">August 5, 2024</div>
-                <div class="resource-text">
-                    Please come back soon to check out some cool math learning material. 
+                        <ul>
+                            <li><a class="resource-link">Sample Test 1</a> | <a class="resource-link">Solutions</a></li>
+                            <li><a class="resource-link">Sample Test 2</a> | <a class="resource-link">Solutions</a></li>
+                            <li><a class="resource-link">Sample Test 3</a> | <a class="resource-link">Solutions</a></li>
+                        </ul>
+                    </div>
                 </div>
 
+                <div class="resource-box">
+        
+                    <div ><a class="resource-title" >Delta Sample Tests</a></div>
+                    <div class="author">Author: Maximillian Roach</div>
+                    <div class="date">August 7, 2024</div>
+                    <div class="resource-text">
+                        Here are some sample tests for the Delta division of the DMMC contest series. 
+                        The Delta division is typically for students in middle school. 
 
+                        <ul>
+                            <li><a class="resource-link" href="Delta_Sample_Test_1.pdf">Sample Test 1</a> | <a class="resource-link" href="Delta_Sample_1_Solutions.pdf">Solutions</a></li>
+                            <li><a class="resource-link" href="Delta_Sample_Test_2.pdf">Sample Test 2</a> | <a class="resource-link">Solutions</a></li>
+                            <li><a class="resource-link" href="Delta_Sample_Test_3.pdf">Sample Test 3</a> | <a class="resource-link">Solutions</a></li>
+                        </ul>
+                    </div>
+                </div>
 
+                <div class="resource-box">
+        
+                    <div ><a class="resource-title" >Omega Sample Tests</a></div>
+                    <div class="author">Author: Maximillian Roach</div>
+                    <div class="date">August 7, 2024</div>
+                    <div class="resource-text">
+                        Here are some sample tests for the Omega division of the DMMC contest series. 
+                        The Omega division is typically for students in high school. 
+
+                        <ul>
+                            <li><a class="resource-link" href="Omega_Sample_Test_1.pdf">Sample Test 1</a> | <a class="resource-link">Solutions</a></li>
+                            <li><a class="resource-link" href="Omega_Sample_Test_2.pdf">Sample Test 2</a> | <a class="resource-link">Solutions</a></li>
+                            <li><a class="resource-link" href="Omega_Sample_Test_3.pdf">Sample Test 3</a> | <a class="resource-link">Solutions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+    
+    
+    
+            <div id="Number-Theory" class=" inter" style="display:none">
+                <h2>Number Theory</h2>
+                <div class="resource-container">
+                <div class="resource-box">
+                    <!--STANDARD FOR Resource POST-->
+        
+                    <div ><a class="resource-title" href="#">Sorry We Don't Have Any Resources Yet</a></div>
+                    <div class="author">Author: Maximillian Roach</div>
+                    <div class="date">August 5, 2024</div>
+                    <div class="resource-text">
+                        Please come back soon to check out some cool math learning material. 
+                    </div>
+        
+        
+                </div>
+                </div>
+            </div>
+    
+    
+    
+            <div id="Combinatorics" class=" inter" style="display:none">
+                <h2>Combinatorics</h2>
+                <div class="resource-container">
+                <div class="resource-box">
+                    <!--STANDARD FOR Resource POST-->
+        
+                    <div ><a class="resource-title" href="#">Sorry We Don't Have Any Resources Yet</a></div>
+                    <div class="author">Author: Maximillian Roach</div>
+                    <div class="date">August 5, 2024</div>
+                    <div class="resource-text">
+                        Please come back soon to check out some cool math learning material. 
+                    </div>
+        
+        
+                </div>
+                </div>
+            </div>
+    
+    
+    
+            <div id="Algebra" class=" inter" style="display:none">
+                <h2>Algebra</h2>
+                <div class="resource-container">
+                <div class="resource-box">
+                    <!--STANDARD FOR Resource POST-->
+        
+                    <div ><a class="resource-title" href="#">Sorry We Don't Have Any Resources Yet</a></div>
+                    <div class="author">Author: Maximillian Roach</div>
+                    <div class="date">August 5, 2024</div>
+                    <div class="resource-text">
+                        Please come back soon to check out some cool math learning material. 
+                    </div>
+        
+        
+                </div>
+                </div>
+            </div>
+    
+    
+    
+            <div id="Geometry" class=" inter" style="display:none">
+                <h2>Geometry</h2>
+                <div class="resource-container">
+                <div class="resource-box">
+                    <!--STANDARD FOR Resource POST-->
+        
+                    <div ><a class="resource-title" href="#">Sorry We Don't Have Any Resources Yet</a></div>
+                    <div class="author">Author: Maximillian Roach</div>
+                    <div class="date">August 5, 2024</div>
+                    <div class="resource-text">
+                        Please come back soon to check out some cool math learning material. 
+                    </div>
+        
+        
+                </div>
+                </div>
+            </div>
+    
+    
+    
             </div>
         </div>
-
-    </div>
+        </div>
 
     <div class="footer">
         <div class="footer-text">If you wish to contact someone from the Des Moines

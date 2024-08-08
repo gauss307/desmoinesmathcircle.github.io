@@ -571,7 +571,7 @@ img {
 
 /*RESOURCES*/
 
-.resources-outer {
+.pI-body2{
     background-color: #1F2937;
     padding-left: 10%;
     padding-right: 10%;
@@ -581,19 +581,6 @@ img {
     font-size: 48px;
     color: white;
     font-weight: 900;
-    padding: 8px 0;
-}
-
-.resources-body {
-    background-color: #f4f1d6;
-    display: flex;
-    flex-direction: column;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    border-radius: 4px;
-    color: black;
 }
 
 .resource-box {
@@ -663,6 +650,20 @@ img {
 
 .archive-text {
     font-size: 20px;
+}
+
+h2 {
+    padding-top: 4px;
+}
+
+.resource-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.resource-link {
+    color: #377e9e;
 }
 
 
