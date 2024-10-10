@@ -53,7 +53,7 @@ a {
 }
 
 .logo {
-    font-size: 24px; 
+    font-size: 36px; 
     color: #F9FAF8;
     font-weight: bold;
     font-family: Libertinus; 
@@ -71,14 +71,14 @@ a {
 }
 
 .body1-main-text {
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 900;
     color: #F9FAF8;
     flex-shrink: 1;
 }
 
 .body1-subtext {
-    font-size: 28px;
+    font-size: 36px;
     color: #E5E7EB;
 }
 
