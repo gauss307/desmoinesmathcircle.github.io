@@ -105,7 +105,7 @@ a {
 /*MISSON STATEMENT*/
 
 .body2 {
-    background-color: #eef0eb;
+    background-color: #e0e0e0;
 }
 
 .body2-header {
@@ -452,7 +452,7 @@ img {
 }
 
 .pI-text {
-    background-color: #f4f1d6;
+    background-color: #e0e0e0;
     box-sizing: border-box;
     padding-left: 5%;
     padding-right: 5%;
@@ -489,7 +489,7 @@ img {
 .pI-intro {
     background-color: white;
     border-radius: 4px;
-    box-shadow: 10px 10px #779ecb;
+    box-shadow: 10px 10px #1F2937;
     padding: 8px;
     font-size: 16px;
 }
@@ -537,7 +537,7 @@ img {
 }
 
 .blogs-body {
-    background-color: #f4f1d6;
+    background-color: #e0e0e0;
     display: flex;
     flex-direction: column;
     padding-left: 10%;
@@ -551,7 +551,7 @@ img {
 .blog-box {
     background-color: white;
     border-radius: 4px;
-    box-shadow: 10px 10px #779ecb;
+    box-shadow: 10px 10px #1F2937;
     font-size: 16px;
     padding: 8px;
     display: flex;
@@ -586,7 +586,7 @@ img {
 .resource-box {
     background-color: white;
     border-radius: 4px;
-    box-shadow: 10px 10px #779ecb;
+    box-shadow: 10px 10px #1F2937;
     font-size: 16px;
     padding: 8px;
     display: flex;
@@ -620,7 +620,7 @@ img {
 }
 
 .archives-body {
-    background-color: #f4f1d6;
+    background-color: #e0e0e0;
     display: flex;
     flex-direction: column;
     padding-left: 10%;
@@ -634,7 +634,7 @@ img {
 .archive-box {
     background-color: white;
     border-radius: 4px;
-    box-shadow: 10px 10px #779ecb;
+    box-shadow: 10px 10px #1F2937;
     font-size: 16px;
     padding: 8px;
     display: flex;
