@@ -64,6 +64,10 @@ a {
 
 .body1 {
     background-color:#1F2937;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .body1-main-text {
