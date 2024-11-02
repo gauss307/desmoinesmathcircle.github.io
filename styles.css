@@ -632,6 +632,7 @@ img {
     padding-bottom: 32px;
     border-radius: 4px;
     color: black;
+    gap: 32px;
 }
 
 .archive-box {
